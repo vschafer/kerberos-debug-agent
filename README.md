@@ -5,6 +5,8 @@ This Java agent enables Kerberos debugging by setting system property sun.securi
 
 The implementation may not work on all JDKs.
 
+The compiled library is available in release/kerberosDebug-0.1.jar
+
 In order to use it start you application with -javaagent:kerberosDebug-0.1.jar, for example:
 
 java -classpath kerberosDebug-0.1.jar -javaagent:kerberosDebug-0.1.jar Test
